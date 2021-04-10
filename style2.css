@@ -1,0 +1,78 @@
+body
+{
+    background: white;
+    font-family: Verdana, Geneva, sans-serif;;
+}
+*
+{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.licolor
+{
+    color: orange;
+}
+
+.column
+{
+    float: left;
+    background-color: #25525E;
+    height: 100px;
+    
+}
+.left
+{
+width: 45%;
+text-align: right;
+}
+.right
+{
+width: 55%;
+text-align: right;
+}
+.row:after
+{
+
+    content: "";
+    display: table;
+    clear: both;
+}
+hr{
+    height: 2px;
+    background-color: yellow;
+    border: none;
+}
+.brow1
+{
+
+    
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.bcolumn
+{
+
+    float: left;
+    height: 600px;
+    background-color: teal;
+    padding: 10px;
+}
+.bcol1
+{ 
+background-color: white;
+width: 25%;
+
+
+}
+.bcol2
+{
+    background-color:white;
+    width: 70%;
+    padding: 10px;
+}
+
